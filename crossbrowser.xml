@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "OpenCart Test Suite" parallel="tests">   <!-- parallel="tests" is execute parallely -->
+	<test thread-count = "2" name= "chrome-Test">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name ="testCases.TC_001_AccountRegistration"/>
+		</classes>
+	</test>
+	
+	<test thread-count = "2" name= "firefox-Test">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name ="testCases.TC_001_AccountRegistration"/>
+		</classes>
+	</test>
+	
+	<test thread-count = "2" name= "edge-Test">
+		<parameter name="browser" value="edge"/>
+		<classes>
+			<class name ="testCases.TC_001_AccountRegistration"/>
+		</classes>
+	</test>
+	
+</suite>

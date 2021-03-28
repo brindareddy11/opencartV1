@@ -1,0 +1,6 @@
+21:56:53.593 [main] INFO  testCases.TC_001_AccountRegistration - Launched Chrome Browser
+21:56:53.645 [main] INFO  testCases.TC_001_AccountRegistration - starting TC_001_AccountRegistration
+21:56:54.683 [main] INFO  testCases.TC_001_AccountRegistration - Clicked on Myaccount
+21:56:55.720 [main] INFO  testCases.TC_001_AccountRegistration - Provided Telphone number
+21:56:55.990 [main] INFO  testCases.TC_001_AccountRegistration - clicked privacy polocy
+21:56:57.334 [main] INFO  testCases.TC_001_AccountRegistration - Test is finished-TC_001_AccountRegistration
