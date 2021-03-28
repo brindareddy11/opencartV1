@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
-
+// this is login test
 public class TC_002_LoginPage extends BaseClass
 {
 	@Test(groups= {"master", "sanity"})
